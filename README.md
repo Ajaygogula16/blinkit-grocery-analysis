@@ -1,7 +1,7 @@
 📚 Books Scraping & Analysis
 Welcome to the Books Scraping & Analysis project! 📊 This project collects book data from Books to Scrape using Python-based web scraping, processes it with Pandas, stores it in MySQL, and explores patterns in pricing, ratings, and availability through SQL queries and visualizations. The goal is to demonstrate an end-to-end workflow from raw HTML data to meaningful business insights.
 
----
+ ---
 
 🧠 Objectives
 - Scrape and compile book data across all pages of the website.
