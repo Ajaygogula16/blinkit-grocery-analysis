@@ -1,50 +1,54 @@
-📚 Books Scraping & Analysis
-Welcome to the Books Scraping & Analysis project! 📊 This project collects book data from Books to Scrape using Python-based web scraping, processes it with Pandas, stores it in MySQL, and explores patterns in pricing, ratings, and availability through SQL queries and visualizations. The goal is to demonstrate an end-to-end workflow from raw HTML data to meaningful business insights.
+🛒 BlinkIT Grocery Data Analysis
+Welcome to the BlinkIT Grocery Data Analysis project! 📊 This project explores sales performance, customer trends, and product behavior for BlinkIT using Power BI. By leveraging interactive dashboards and data modeling, it uncovers insights to optimize sales strategies, inventory management, and business growth.
 
- ---
+---
 
 🧠 Objectives
-- Scrape and compile book data across all pages of the website.
-- Clean and preprocess raw data for structured storage.
-- Store and manage the dataset in a MySQL database.
-- Use SQL to extract insights and perform aggregations.
-- Visualize distributions, trends, and patterns in the dataset.
+Analyze sales performance across product categories and outlet locations.
+
+Understand customer buying patterns and preferences.
+
+Identify high-performing products and slow-moving inventory.
+
+Create interactive dashboards for real-time decision-making.
+
+Develop a scalable and well-documented BI framework for future enhancements.
 
 ---
 
 🔍 Dataset Overview
-The dataset is sourced from Books to Scrape and contains:
-- Title – Book name
-- Price – Price in GBP
-- Availability – Stock status (in stock / out of stock)
-- Rating – Book rating from 1–5 stars
-With ~2000 book entries, the dataset is ideal for exploratory and statistical analysis.
+We use the BlinkIT Grocery Sales Dataset, which contains: Item Identifier – Unique product code, Item Weight – Weight of the product, Item Type – Category/type of product, Item Visibility – Shelf visibility score, Item MRP – Maximum Retail Price, Outlet Identifier – Store code, Outlet Size – Store size classification, Outlet Type – Store format (e.g., supermarket, grocery store), Outlet Location Type – City tier classification, Item Outlet Sales – Sales amount per product per store. This dataset is ideal for exploratory, comparative, and KPI-based analysis.
 
 ---
 
 🧰 Technologies & Tools
-Category       | Tools Used
--------------- | -------------------------
-Data Handling  | Pandas
-Web Scraping   | BeautifulSoup, Requests
-Database       | MySQL
-Visualization  | Matplotlib, Seaborn
-Environment    | Jupyter Notebook
+Category	Tools Used
+Data Handling	Microsoft Excel
+BI Platform	Power BI
+Visualization	Power BI Charts & KPIs
+Data Modeling	DAX, Power Query
+Source File	Excel Dataset
 
 ---
 
 📈 Analysis Highlights
-- Distribution of books by rating to understand quality trends.
-- Price distribution analysis for market range insights.
-- Availability breakdown for inventory patterns.
-- Top 5 most expensive books identified via SQL queries.
-- Grouped analysis of book counts by rating.
+Top-selling categories identified for better stocking decisions.
+
+Outlet size & location significantly influence sales volume.
+
+Price range impacts customer purchasing behavior.
+
+Seasonal & regional trends help improve inventory planning.
 
 ---
 
-📊 Key Visuals in Analysis
-- Rating Distribution Bar Chart
-- Price Distribution Histogram
-- Availability Pie Chart
-- Top 5 Expensive Books Table
-- Books per Rating Summary
+📊 Key Visuals in Dashboard
+Category-wise Sales Breakdown
+
+Outlet Type vs. Revenue
+
+Top 10 Best-Selling Products
+
+Sales Trends Over Time
+
+Profitability Heatmaps
